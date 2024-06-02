@@ -20,3 +20,6 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 # Sobre o Projeto
 
 Algoritimo simples implementando um carrinho de compras de um e-commerce, para contrução foi utilizado o Framework Collections.
+
+- Para implementação do metodo de adicionar ao carrinho e remover do carrinho foi criado manualmente uma variavel ID com base no nome e valor de cada produto para suprir a necessidade de um cadastro completo de produtos.
+- Para implementação do metodo exibir produto decidi melhorar a vizualização exibindo os produtos em forma de ficha. 
