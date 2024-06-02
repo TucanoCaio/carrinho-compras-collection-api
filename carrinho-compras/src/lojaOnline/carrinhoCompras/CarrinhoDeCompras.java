@@ -163,6 +163,6 @@ public class CarrinhoDeCompras {
         carrinhoItens.calcularValorTotal();
 
         //Ultima validação de de tamanho da lista
-        //System.out.println(carrinhoItens.tamanho());
+        /*System.out.println(carrinhoItens.tamanho());*/
     }
 }
