@@ -7,11 +7,11 @@ public class Item {
     private int quantidade;
     private String id;
 
-    public Item(String nome, double preco, int quantidade, String id) {
+    public Item(String id, String nome, double preco, int quantidade) {
+        this.id = id;
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
-        this.id = id;
     }
 
     public String getNome() {
@@ -36,7 +36,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return "[nome=" + nome + ", preco=" + preco + ", quantidade=" + quantidade + "]";
+        return "[id=" + id + ", nome=" + nome + ", preco=" + preco + ", quantidade=" + quantidade + "]";
     }
        
 }
